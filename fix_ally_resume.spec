@@ -2,6 +2,7 @@ Name:           fix_ally_resume
 Version:        0.0.1
 Release:        1%{?dist}
 Summary:        Fixes ROG Ally controllers on resume from suspend
+BuildArch:      noarch
 
 License:        MIT
 URL:            https://github.com/Xe/fix_ally_resume
