@@ -49,4 +49,3 @@ mkdir -p %{buildroot}%{_presetdir}/
 %changelog
 * Sat Jan 13 2024 Xe Iaso <me@xeiaso.net>
 - Initial release
-- 
