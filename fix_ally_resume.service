@@ -1,0 +1,13 @@
+[Unit]
+Description=Fix ROG Ally controller on resume from suspend
+After=suspend.target
+
+[Service]
+User=root
+Type=oneshot
+ExecStart=/var/games/fix_ally_resume/fix_ally_resume.sh
+TimeoutSec=0
+StandardOutput=syslog
+
+[Install]
+WantedBy=suspend.target
